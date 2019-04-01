@@ -1,0 +1,15 @@
+# development environments
+.vscode
+legion.code-workspace
+
+# cmake output
+build/
+CMakeFiles/
+Testing/
+cmake_install.cmake
+CMakeCache.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile

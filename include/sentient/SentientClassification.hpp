@@ -1,0 +1,22 @@
+#ifndef SENTIENTCLASSIFICATION_H_
+#define SENTIENTCLASSIFICATION_H_
+
+enum class sentient_classification_t {
+    HUMANOID,
+    CYBERNETIC,
+    SYNTHETIC,
+    EPHEMERAL,
+    CONSTRUCT,
+    DIGITAL_CONSTRUCT,
+    UNDEAD,
+    DEMON,
+    DRAGON,
+    ANIMAL,
+    INSECT,
+    PLANT,
+    ELEMENTAL,
+    ABERRATION,
+    UNKNOWN
+};
+
+#endif

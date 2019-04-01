@@ -1,0 +1,17 @@
+#ifndef TRANSITIONSTATE_H_
+#define TRANSITIONSTATE_H_
+
+enum class transition_state_t {
+    STATIONARY = 0x01,
+    WALKING = 0x02,
+    RUNNING = 0x03,
+    TRANSPORT_HORIZ = 0x04,
+    TRANSPORT_VERT = 0x05,
+    TRANSPORT_MOLECULAR = 0x06,
+    VEHICULAR_TERRESTRIAL = 0x07,
+    VEHICULAR_SUB_FTL = 0x08,
+    VEHICULAR_FTL = 0x09,
+    MULTIVERSE_HOP = 0x0A
+};
+
+#endif
